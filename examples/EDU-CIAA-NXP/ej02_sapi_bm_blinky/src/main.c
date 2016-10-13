@@ -87,14 +87,14 @@ int main(void){
    while(1) {
 
       /* Prendo el led azul */
-      digitalWrite( LEDB, ON );
+      digitalWrite( LED2, ON );
 
       delay(500);
 
       /* Apago el led azul */
-      digitalWrite( LEDB, OFF );
+      digitalWrite( LED2, OFF );
 
-      delay(500);
+      delay(1000);
 
    }
 
